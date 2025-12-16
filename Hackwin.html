@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelancer Tax Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="hack.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Freelancer Tax Assistant</h1>
+    <form id="taxForm">
+      <label for="income">Annual Income (₹):</label>
+      <input type="number" id="income" required />
+
+      <label for="expenses">Deductible Expenses (₹):</label>
+      <input type="number" id="expenses" required />
+
+      <button type="submit">Estimate Tax</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="hack.js"></script>
+</body>
+</html>
